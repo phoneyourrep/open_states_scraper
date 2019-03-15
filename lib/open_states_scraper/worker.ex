@@ -37,7 +37,6 @@ defmodule OpenStatesScraper.Worker do
   end
 
   defp people_query(jurisdiction, chamber) do
-    # FIXME: Timeouts in requests on some states.
     OpenStates.query("""
     {
       jurisdiction(name: "#{jurisdiction}") {
