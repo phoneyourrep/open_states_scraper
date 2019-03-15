@@ -5,6 +5,7 @@ defmodule OpenStatesScraper.Jurisdictions do
   """
 
   use GenStage
+  alias OpenStatesScraper.ConsumerSupervisor, as: WorkerSup
 
   @name __MODULE__
 
@@ -25,7 +26,23 @@ defmodule OpenStatesScraper.Jurisdictions do
     {:producer, state_names}
   end
 
+  def handle_demand(demand, _state = []) when demand > 0 do
+    shutdown_when_complete()
+  end
+
+  def handle_demand(demand, state) when demand > 0 do
+    jurisdictions = Enum.take(state, demand)
+    {:noreply, jurisdictions, Enum.drop(state, demand)}
+  end
+
   # def handle_call(:get, _from, state) do
   #   {:reply, state, [], state}
   # end
+
+  defp shutdown_when_complete do
+    case ConsumerSupervisor.count_children(WorkerSup) do
+      %{active: 0} -> System.halt(0)
+      %{active: _} -> shutdown_when_complete()
+    end
+  end
 end
