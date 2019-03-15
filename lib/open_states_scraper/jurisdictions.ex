@@ -42,8 +42,12 @@ defmodule OpenStatesScraper.Jurisdictions do
 
   defp shutdown_when_complete do
     case ConsumerSupervisor.count_children(WorkerSup) do
-      %{active: 0} -> System.halt(0)
-      %{active: _} -> shutdown_when_complete()
+      %{active: 0} ->
+        System.halt(0)
+
+      %{active: _} ->
+        Process.sleep(500)
+        shutdown_when_complete()
     end
   end
 end

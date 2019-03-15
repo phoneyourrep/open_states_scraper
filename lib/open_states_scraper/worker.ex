@@ -4,7 +4,6 @@ defmodule OpenStatesScraper.Worker do
   """
 
   use Task
-  import OpenStates, only: [sigil_q: 2]
   require Logger
 
   @chambers ~w(legislature upper lower)
@@ -32,17 +31,14 @@ defmodule OpenStatesScraper.Worker do
       {:error, %{body: error}} ->
         error |> IO.inspect() |> Logger.warn()
         Logger.warn(jurisdiction)
-        get_people(jurisdiction, chamber)
-
-      {:error, %{reason: reason}} ->
-        reason |> IO.inspect() |> Logger.warn()
-        Logger.warn(jurisdiction)
+        Process.sleep(500)
         get_people(jurisdiction, chamber)
     end
   end
 
   defp people_query(jurisdiction, chamber) do
-    ~q"""
+    # FIXME: Timeouts in requests on some states.
+    OpenStates.query("""
     {
       jurisdiction(name: "#{jurisdiction}") {
         name
@@ -85,20 +81,6 @@ defmodule OpenStatesScraper.Worker do
                   createdAt
                   updatedAt
                   extras
-                  currentMemberships {
-                    id
-                    personName
-                    label
-                    organization {
-                      id
-                      name
-                      image
-                      classification
-                    }
-                    role
-                    startDate
-                    endDate
-                  }
                 }
               }
             }
@@ -106,6 +88,6 @@ defmodule OpenStatesScraper.Worker do
         }
       }
     }
-    """
+    """, connection_opts: [timeout: :infinity, recv_timeout: :infinity])
   end
 end
