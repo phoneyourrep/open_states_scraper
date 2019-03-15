@@ -17,7 +17,14 @@ defmodule OpenStatesScraper.Worker do
       Enum.reduce(@chambers, [], fn chamber, acc -> [get_people(jurisdiction, chamber) | acc] end)
       |> List.flatten()
 
-    File.write("./data/#{jurisdiction}.json", Poison.encode!(results))
+    File.write("./data/#{to_snakecase(jurisdiction)}.json", Poison.encode!(results))
+  end
+
+  defp to_snakecase(jurisdiction) do
+    jurisdiction
+    |> String.downcase()
+    |> String.split(" ")
+    |> Enum.join("_")
   end
 
   defp get_people(jurisdiction, chamber) do
