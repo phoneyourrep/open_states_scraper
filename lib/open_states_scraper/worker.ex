@@ -81,6 +81,27 @@ defmodule OpenStatesScraper.Worker do
                   createdAt
                   updatedAt
                   extras
+                  currentMemberships {
+                    id
+                    personName
+                    organization {
+                      id
+                      name
+                      classification
+                    }
+                    post {
+                      id
+                      label
+                      role
+                      startDate
+                      endDate
+
+                    }
+                    label
+                    role
+                    startDate
+                    endDate
+                  }
                 }
               }
             }
