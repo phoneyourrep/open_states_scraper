@@ -40,7 +40,7 @@ defmodule OpenStatesScraper.Producer do
         System.halt(0)
 
       %{active: _} ->
-        Process.sleep(500)
+        Process.sleep(100)
         shutdown_when_complete()
     end
   end

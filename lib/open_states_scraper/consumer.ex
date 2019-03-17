@@ -6,18 +6,14 @@ defmodule OpenStatesScraper.Consumer do
   use Task
   require Logger
 
-  @chambers ~w(legislature upper lower)
-
   def start_link([], jurisdiction) do
     Task.start_link(__MODULE__, :scrape, [jurisdiction])
   end
 
   def scrape(jurisdiction) do
-    results =
-      Enum.reduce(@chambers, [], fn chamber, acc -> [get_people(jurisdiction, chamber) | acc] end)
-      |> List.flatten()
-
+    results = get_people(jurisdiction)
     File.write("./data/#{to_snakecase(jurisdiction)}.json", Poison.encode!(results))
+    IO.puts("Scraped #{jurisdiction}")
   end
 
   defp to_snakecase(jurisdiction) do
@@ -27,28 +23,28 @@ defmodule OpenStatesScraper.Consumer do
     |> Enum.join("_")
   end
 
-  defp get_people(jurisdiction, chamber) do
-    case people_query(jurisdiction, chamber) do
+  defp get_people(jurisdiction) do
+    case people_query(jurisdiction) do
       {:ok, %{body: response}} ->
         response
         |> get_in(["data", "jurisdiction", "organizations", "edges"])
-        |> List.first()
-        |> get_in(["node", "currentMemberships"])
+        |> Enum.reduce([], fn edges, acc -> [get_in(edges, ["node", "currentMemberships"]) | acc] end)
+        |> List.flatten()
 
       {:error, %{body: error}} ->
         error |> IO.inspect() |> Logger.warn()
         Logger.warn(jurisdiction)
         Process.sleep(500)
-        get_people(jurisdiction, chamber)
+        get_people(jurisdiction)
     end
   end
 
-  defp people_query(jurisdiction, chamber) do
+  def people_query(jurisdiction) do
     OpenStates.query("""
     {
       jurisdiction(name: "#{jurisdiction}") {
         name
-        organizations(first: 1, classification: "#{chamber}") {
+        organizations(first: 3, classification: ["lower", "upper", "legislature"]) {
           edges {
             node {
               name

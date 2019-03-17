@@ -1,6 +1,7 @@
 defmodule OpenStatesScraper.ConsumerSupervisor do
   @moduledoc """
-  A consumer supervisor that spawns scraper tasks for each jurisdiction.
+  A consumer supervisor that spawns scraper tasks for each event jurisdiction
+  received from the producer.
   """
 
   use ConsumerSupervisor
@@ -19,7 +20,7 @@ defmodule OpenStatesScraper.ConsumerSupervisor do
 
     opts = [
       strategy: :one_for_one,
-      subscribe_to: [{Producer, max_demand: 4}]
+      subscribe_to: [{Producer, max_demand: 8}]
     ]
 
     ConsumerSupervisor.init(children, opts)
