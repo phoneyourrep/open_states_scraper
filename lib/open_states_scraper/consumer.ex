@@ -83,6 +83,20 @@ defmodule OpenStatesScraper.Consumer do
                       label
                     }
                   }
+                  chamber: currentMemberships(classification: ["upper", "lower", "legislature"]) {
+                    organization {
+                      id
+                      name
+                      classification
+                      parent {
+                        name
+                      }
+                    }
+                    post {
+                      role
+                      label
+                    }
+                  }
                 }
               }
             }
