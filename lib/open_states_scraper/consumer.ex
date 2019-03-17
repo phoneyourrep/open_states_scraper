@@ -52,22 +52,11 @@ defmodule OpenStatesScraper.Consumer do
                 person {
                   id
                   name
-                  sortName
                   familyName
                   givenName
                   image
                   birthDate
                   deathDate
-                  identifiers {
-                    identifier
-                    scheme
-                  }
-                  otherNames {
-                    name
-                    note
-                    startDate
-                    endDate
-                  }
                   links {
                     url
                   }
@@ -80,29 +69,19 @@ defmodule OpenStatesScraper.Consumer do
                   sources {
                     url
                   }
-                  createdAt
-                  updatedAt
-                  extras
-                  currentMemberships {
-                    id
-                    personName
+                  party: currentMemberships(classification: "party") {
                     organization {
                       id
                       name
                       classification
+                      parent {
+                        name
+                      }
                     }
                     post {
-                      id
-                      label
                       role
-                      startDate
-                      endDate
-
+                      label
                     }
-                    label
-                    role
-                    startDate
-                    endDate
                   }
                 }
               }
