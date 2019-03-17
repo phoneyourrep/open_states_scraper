@@ -5,7 +5,7 @@ defmodule OpenStatesScraper do
 
   Implemented as a GenStage pipeline for concurrent processing.
 
-  To use the scraper execute the command `mix run --no-halt`. All of the data will be written
+  To use the scraper execute the command `MIX_ENV=prod mix run --no-halt`. All of the data will be written
   to the `./data/` directory.
   """
 end

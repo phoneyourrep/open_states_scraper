@@ -12,5 +12,5 @@ Then run:
 
 ```bash
 mix deps.get && mix test
-mix run --no-halt
+MIX_ENV=prod mix run --no-halt
 ```
