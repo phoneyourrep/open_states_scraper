@@ -7,6 +7,7 @@ defmodule OpenStatesScraper.ConsumerSupervisor do
   use ConsumerSupervisor
   alias OpenStatesScraper.{Producer, Consumer}
 
+  @spec start_link([]) :: :ignore | {:error, any()} | {:ok, pid()}
   def start_link([]) do
     ConsumerSupervisor.start_link(__MODULE__, :ok, name: __MODULE__)
   end

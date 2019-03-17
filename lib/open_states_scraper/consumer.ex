@@ -6,10 +6,14 @@ defmodule OpenStatesScraper.Consumer do
   use Task
   require Logger
 
+  @type jurisdiction :: String.t()
+
+  @spec start_link([], jurisdiction) :: {:ok, pid()}
   def start_link([], jurisdiction) do
     Task.start_link(__MODULE__, :scrape, [jurisdiction])
   end
 
+  @spec scrape(jurisdiction) :: :ok
   def scrape(jurisdiction) do
     results = get_people(jurisdiction)
     File.write("./data/#{to_snakecase(jurisdiction)}.json", Poison.encode!(results))
@@ -39,7 +43,7 @@ defmodule OpenStatesScraper.Consumer do
     end
   end
 
-  def people_query(jurisdiction) do
+  defp people_query(jurisdiction) do
     OpenStates.query("""
     {
       jurisdiction(name: "#{jurisdiction}") {
