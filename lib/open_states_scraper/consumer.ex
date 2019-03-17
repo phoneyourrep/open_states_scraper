@@ -55,8 +55,6 @@ defmodule OpenStatesScraper.Consumer do
                   familyName
                   givenName
                   image
-                  birthDate
-                  deathDate
                   links {
                     url
                   }
@@ -64,7 +62,6 @@ defmodule OpenStatesScraper.Consumer do
                     type
                     value
                     note
-                    label
                   }
                   sources {
                     url
@@ -74,13 +71,6 @@ defmodule OpenStatesScraper.Consumer do
                       id
                       name
                       classification
-                      parent {
-                        name
-                      }
-                    }
-                    post {
-                      role
-                      label
                     }
                   }
                   chamber: currentMemberships(classification: ["upper", "lower", "legislature"]) {
