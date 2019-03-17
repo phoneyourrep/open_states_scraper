@@ -32,7 +32,9 @@ defmodule OpenStatesScraper.Consumer do
       {:ok, %{body: response}} ->
         response
         |> get_in(["data", "jurisdiction", "organizations", "edges"])
-        |> Enum.reduce([], fn edges, acc -> [get_in(edges, ["node", "currentMemberships"]) | acc] end)
+        |> Enum.reduce([], fn edges, acc ->
+          [get_in(edges, ["node", "currentMemberships"]) | acc]
+        end)
         |> List.flatten()
 
       {:error, %{body: error}} ->
@@ -44,51 +46,53 @@ defmodule OpenStatesScraper.Consumer do
   end
 
   defp people_query(jurisdiction) do
-    OpenStates.query("""
-    {
-      jurisdiction(name: "#{jurisdiction}") {
-        name
-        organizations(first: 3, classification: ["lower", "upper", "legislature"]) {
-          edges {
-            node {
-              name
-              currentMemberships {
-                person {
-                  id
-                  name
-                  familyName
-                  givenName
-                  image
-                  links {
-                    url
-                  }
-                  contactDetails {
-                    type
-                    value
-                    note
-                  }
-                  sources {
-                    url
-                  }
-                  party: currentMemberships(classification: "party") {
-                    organization {
-                      id
-                      name
-                      classification
+    OpenStates.query(
+      """
+      {
+        jurisdiction(name: "#{jurisdiction}") {
+          name
+          organizations(first: 3, classification: ["lower", "upper", "legislature"]) {
+            edges {
+              node {
+                name
+                currentMemberships {
+                  person {
+                    id
+                    name
+                    familyName
+                    givenName
+                    image
+                    links {
+                      url
                     }
-                  }
-                  chamber: currentMemberships(classification: ["upper", "lower", "legislature"]) {
-                    organization {
-                      id
-                      name
-                      classification
-                      parent {
+                    contactDetails {
+                      type
+                      value
+                      note
+                    }
+                    sources {
+                      url
+                    }
+                    party: currentMemberships(classification: "party") {
+                      organization {
+                        id
                         name
+                        classification
                       }
                     }
-                    post {
-                      role
-                      label
+                    chamber: currentMemberships(classification: ["upper", "lower", "legislature"]) {
+                      organization {
+                        id
+                        name
+                        classification
+                        parent {
+                          name
+                        }
+                      }
+                      post {
+                        role
+                        label
+                      }
                     }
                   }
                 }
@@ -97,7 +101,8 @@ defmodule OpenStatesScraper.Consumer do
           }
         }
       }
-    }
-    """, connection_opts: [timeout: :infinity, recv_timeout: :infinity])
+      """,
+      connection_opts: [timeout: :infinity, recv_timeout: :infinity]
+    )
   end
 end

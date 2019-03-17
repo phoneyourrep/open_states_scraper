@@ -18,10 +18,12 @@ defmodule OpenStatesScraper.Producer do
   def init(:ok) do
     {:ok, %{status_code: 200, body: body}} = OpenStates.jurisdictions(attrs: [:name])
     File.mkdir("./data")
+
     state_names =
       Enum.map(body["data"]["jurisdictions"]["edges"], fn node ->
         node["node"]["name"]
       end)
+
     {:producer, state_names}
   end
 
