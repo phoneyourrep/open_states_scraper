@@ -8,7 +8,7 @@ defmodule OpenStatesScraper.Application do
   @env Mix.env()
 
   def start(_type, _args) do
-    opts = [strategy: :one_for_one, name: OpenStatesScraper.Supervisor]
+    opts = [strategy: :rest_for_one, name: OpenStatesScraper.Supervisor]
     Supervisor.start_link(children(@env), opts)
   end
 
