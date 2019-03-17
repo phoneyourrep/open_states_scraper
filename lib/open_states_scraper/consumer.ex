@@ -1,6 +1,6 @@
 defmodule OpenStatesScraper.Consumer do
   @moduledoc """
-  Task that does the scraping and writes the data to disk.
+  Task that scrapes legislator data for each jurisdiction and writes the data to disk.
   """
 
   use Task

@@ -1,7 +1,8 @@
 defmodule OpenStatesScraper.ConsumerSupervisor do
   @moduledoc """
   A consumer supervisor that spawns scraper tasks for each event jurisdiction
-  received from the producer.
+  received from the producer. Acts as a worker pool with a maximum of eight concurrent
+  processes.
   """
 
   use ConsumerSupervisor
