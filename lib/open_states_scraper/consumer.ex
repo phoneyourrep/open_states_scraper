@@ -1,4 +1,4 @@
-defmodule OpenStatesScraper.Worker do
+defmodule OpenStatesScraper.Consumer do
   @moduledoc """
   Task that does the scraping and writes the data to disk.
   """

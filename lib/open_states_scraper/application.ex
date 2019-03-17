@@ -5,7 +5,7 @@ defmodule OpenStatesScraper.Application do
 
   def start(_type, _args) do
     children = [
-      OpenStatesScraper.Jurisdictions,
+      OpenStatesScraper.Producer,
       OpenStatesScraper.ConsumerSupervisor
     ]
 

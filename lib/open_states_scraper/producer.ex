@@ -1,19 +1,17 @@
-defmodule OpenStatesScraper.Jurisdictions do
+defmodule OpenStatesScraper.Producer do
   @moduledoc """
   This is a GenStage producer that fetches the full list of `jurisdictions` from
   the OpenStates API on init and sends them to the consumer when there is demand.
   """
 
   use GenStage
-  alias OpenStatesScraper.ConsumerSupervisor, as: WorkerSup
+  alias OpenStatesScraper.ConsumerSupervisor, as: CS
 
   @name __MODULE__
 
   def start_link([]) do
     GenStage.start_link(@name, :ok, name: @name)
   end
-
-  # def get, do: GenServer.call(@name, :get)
 
   ## Callbacks
 
@@ -36,12 +34,8 @@ defmodule OpenStatesScraper.Jurisdictions do
     {:noreply, jurisdictions, Enum.drop(state, demand)}
   end
 
-  # def handle_call(:get, _from, state) do
-  #   {:reply, state, [], state}
-  # end
-
   defp shutdown_when_complete do
-    case ConsumerSupervisor.count_children(WorkerSup) do
+    case ConsumerSupervisor.count_children(CS) do
       %{active: 0} ->
         System.halt(0)
 

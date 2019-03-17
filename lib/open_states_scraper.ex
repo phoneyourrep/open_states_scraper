@@ -1,18 +1,11 @@
 defmodule OpenStatesScraper do
   @moduledoc """
-  Documentation for OpenStatesScraper.
+  Scraper application that bulk downloads U.S. state legislator data from
+  the OpenStates GraphQL API.
+
+  Implemented as a GenStage pipeline for concurrent processing.
+
+  To use the scraper execute the command `mix run --no-halt`. All of the data will be written
+  to the `./data/` directory.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> OpenStatesScraper.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end

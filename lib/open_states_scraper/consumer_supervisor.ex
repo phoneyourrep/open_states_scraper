@@ -4,7 +4,7 @@ defmodule OpenStatesScraper.ConsumerSupervisor do
   """
 
   use ConsumerSupervisor
-  alias OpenStatesScraper.{Jurisdictions, Worker}
+  alias OpenStatesScraper.{Producer, Consumer}
 
   def start_link([]) do
     ConsumerSupervisor.start_link(__MODULE__, :ok, name: __MODULE__)
@@ -14,12 +14,12 @@ defmodule OpenStatesScraper.ConsumerSupervisor do
 
   def init(:ok) do
     children = [
-      Worker
+      Consumer
     ]
 
     opts = [
       strategy: :one_for_one,
-      subscribe_to: [{Jurisdictions, max_demand: 4}]
+      subscribe_to: [{Producer, max_demand: 4}]
     ]
 
     ConsumerSupervisor.init(children, opts)

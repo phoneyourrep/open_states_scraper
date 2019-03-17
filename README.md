@@ -8,8 +8,9 @@ Make sure you have `Elixir ~> 1.5` and Erlang/OTP installed. Clone this reposito
 config :open_states, api_key: "xxxxxxxxxxxxxxxxx"
 ``` 
 
-Run the tests to ensure everything is working, then:
+Then run:
 
 ```bash
+mix deps.get && mix test
 mix run --no-halt
 ```
