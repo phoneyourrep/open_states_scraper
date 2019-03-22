@@ -16,7 +16,7 @@ defmodule OpenStatesScraper.Consumer do
   @spec scrape(jurisdiction) :: :ok
   def scrape(jurisdiction) do
     results = get_people(jurisdiction)
-    File.write("./data/#{to_snakecase(jurisdiction)}.json", Poison.encode!(results))
+    File.write("./data/#{to_snakecase(jurisdiction)}.json", Poison.encode!(results, pretty: true))
     IO.puts("Scraped #{jurisdiction}")
   end
 

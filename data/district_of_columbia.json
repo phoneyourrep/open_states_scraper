@@ -1,1 +1,764 @@
-[{"person":{"sources":[{"url":"http://dccouncil.us/council/kenyan-mcduffie/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Kenyan McDuffie","links":[{"url":"http://dccouncil.us/council/kenyan-mcduffie/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/Councilmember_Kenyan_R._McDuffie_Official_Photograph_small-copy-1-125x125-c-default.jpg","id":"ocd-person/cc7796a1-6644-4bc1-a536-b9307e84b22f","givenName":"Kenyan","familyName":"McDuffie","contactDetails":[{"value":"kmcduffie@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8028","type":"voice","note":"Capitol Office"},{"value":"202-724-8076","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 5"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/vincent-gray/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Vincent Gray","links":[{"url":"http://dccouncil.us/council/vincent-gray/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/Headshot_gray_small-125x125-c-default.jpg","id":"ocd-person/23ff0b28-93f2-45a2-8afc-ce7f8e5cdf19","givenName":"Vincent","familyName":"Gray","contactDetails":[{"value":"vgray@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8068","type":"voice","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 7"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/councilmember-allen/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Charles Allen","links":[{"url":"http://dccouncil.us/council/councilmember-allen/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/06/C._Allen_small_1-125x125-c-default.jpg","id":"ocd-person/ab8e39c8-583e-4e9d-b481-0f43c21318ba","givenName":"Charles","familyName":"Allen","contactDetails":[{"value":"callen@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8072","type":"voice","note":"Capitol Office"},{"value":"202-724-8054","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 6"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/david-grosso/"}],"party":[{"organization":{"name":"Independent","id":"ocd-organization/d6ca7a45-3984-4da6-a7f8-0c0c846a8a41","classification":"party"}}],"name":"David Grosso","links":[{"url":"http://dccouncil.us/council/david-grosso/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/david_grosso_color__small-copy-2-125x125-c-default.jpg","id":"ocd-person/68a4ad6c-47e2-4559-8cd6-d28cf598af6e","givenName":"David","familyName":"Grosso","contactDetails":[{"value":"dgrosso@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8105","type":"voice","note":"Capitol Office"},{"value":"202-724-8071","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"At-Large"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/councilmember-brandon-t-todd/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Brandon Todd","links":[{"url":"http://dccouncil.us/council/councilmember-brandon-t-todd/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/06/CM-Todd-Formal-Headshot-125x125-c-default.jpg","id":"ocd-person/705a739d-e779-42dd-8953-d6ede3f7f1db","givenName":"Brandon","familyName":"Todd","contactDetails":[{"value":"202-724-8052","type":"voice","note":"Capitol Office"},{"value":"202-741-0908","type":"fax","note":"Capitol Office"},{"value":"btodd@dccouncil.us","type":"email","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 4"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/brianne-nadeau/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Brianne K. Nadeau","links":[{"url":"http://dccouncil.us/council/brianne-nadeau/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/bkn-125x125-c-default.jpg","id":"ocd-person/4e806a33-bba3-4484-95f8-d723769b99f1","givenName":"Brianne K.","familyName":"Nadeau","contactDetails":[{"value":"bnadeau@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8181","type":"voice","note":"Capitol Office"},{"value":"202-724-8109","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 1"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/anita-bonds/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Anita Bonds","links":[{"url":"http://dccouncil.us/council/anita-bonds/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/Anita-125x125-c-default.jpg","id":"ocd-person/860fa95b-c737-43bd-948d-1dd6dc1b734e","givenName":"Anita","familyName":"Bonds","contactDetails":[{"value":"abonds@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8064","type":"voice","note":"Capitol Office"},{"value":"202-724-8086","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"At-Large"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/phil-mendelson/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Phil Mendelson","links":[{"url":"http://dccouncil.us/council/phil-mendelson/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/Photo-107-002-125x125-c-default.jpg","id":"ocd-person/e3b9567d-67ff-4cc1-89eb-1ed1af646393","givenName":"Phil","familyName":"Mendelson","contactDetails":[{"value":"pmendelson@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8085","type":"voice","note":"Capitol Office"},{"value":"202-724-8099","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Chairman"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/jack-evans/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Jack Evans","links":[{"url":"http://dccouncil.us/council/jack-evans/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/evans-125x125-c-default.jpg","id":"ocd-person/b8df69c7-ee72-41a3-9398-7dd3341acb36","givenName":"Jack","familyName":"Evans","contactDetails":[{"value":"jevans@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8058","type":"voice","note":"Capitol Office"},{"value":"202-724-8023","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 2"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/councilmember-robert-c-white-jr/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Robert White","links":[{"url":"http://dccouncil.us/council/councilmember-robert-c-white-jr/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/06/CMWhite_WebsitePhoto_small-125x125-c-default.jpg","id":"ocd-person/039d6153-d791-42ff-9fb1-3326c4565c53","givenName":"Robert","familyName":"White","contactDetails":[{"value":"rwhite@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8174","type":"voice","note":"Capitol Office"},{"value":"202-727-8210","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"At-Large"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/council-member-mary-m-cheh/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Mary Cheh","links":[{"url":"http://dccouncil.us/council/council-member-mary-m-cheh/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/06/CMMC_head_shot_140_137_c1-125x125-c-default.jpg","id":"ocd-person/d47c1f12-7a5a-417a-b458-7f7a086e7d4c","givenName":"Mary","familyName":"Cheh","contactDetails":[{"value":"mcheh@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8062","type":"voice","note":"Capitol Office"},{"value":"202-724-8118","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 3"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/councilmember-trayon-white-sr/"}],"party":[{"organization":{"name":"Democratic","id":"ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa","classification":"party"}}],"name":"Trayon White","links":[{"url":"http://dccouncil.us/council/councilmember-trayon-white-sr/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/06/tw-125x125-c-default.jpg","id":"ocd-person/8c48b12b-59a2-41bb-96c5-fc3b367637aa","givenName":"Trayon","familyName":"White","contactDetails":[{"value":"twhite@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-8045","type":"voice","note":"Capitol Office"},{"value":"202-724-8055","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"Ward 8"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}},{"person":{"sources":[{"url":"http://dccouncil.us/council/elissa-silverman/"}],"party":[{"organization":{"name":"Independent","id":"ocd-organization/d6ca7a45-3984-4da6-a7f8-0c0c846a8a41","classification":"party"}}],"name":"Elissa Silverman","links":[{"url":"http://dccouncil.us/council/elissa-silverman/"}],"image":"http://dccouncil.us/wp-content/uploads/2017/03/silverman2-125x125-c-default.jpg","id":"ocd-person/438f747e-7345-47f9-ba1b-bb20c8844383","givenName":"Elissa","familyName":"Silverman","contactDetails":[{"value":"esilverman@dccouncil.us","type":"email","note":"Capitol Office"},{"value":"202-724-7772","type":"voice","note":"Capitol Office"},{"value":"202-724-8087","type":"fax","note":"Capitol Office"}],"chamber":[{"post":{"role":"Councilmember","label":"At-Large"},"organization":{"parent":null,"name":"Council of the District of Columbia","id":"ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7","classification":"legislature"}}]}}]
+[
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/kenyan-mcduffie/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Kenyan McDuffie",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/kenyan-mcduffie/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/Councilmember_Kenyan_R._McDuffie_Official_Photograph_small-copy-1-125x125-c-default.jpg",
+      "id": "ocd-person/cc7796a1-6644-4bc1-a536-b9307e84b22f",
+      "givenName": "Kenyan",
+      "familyName": "McDuffie",
+      "contactDetails": [
+        {
+          "value": "kmcduffie@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8028",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8076",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 5"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/vincent-gray/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Vincent Gray",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/vincent-gray/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/Headshot_gray_small-125x125-c-default.jpg",
+      "id": "ocd-person/23ff0b28-93f2-45a2-8afc-ce7f8e5cdf19",
+      "givenName": "Vincent",
+      "familyName": "Gray",
+      "contactDetails": [
+        {
+          "value": "vgray@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8068",
+          "type": "voice",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 7"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-allen/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Charles Allen",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-allen/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/06/C._Allen_small_1-125x125-c-default.jpg",
+      "id": "ocd-person/ab8e39c8-583e-4e9d-b481-0f43c21318ba",
+      "givenName": "Charles",
+      "familyName": "Allen",
+      "contactDetails": [
+        {
+          "value": "callen@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8072",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8054",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 6"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/david-grosso/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Independent",
+            "id": "ocd-organization/d6ca7a45-3984-4da6-a7f8-0c0c846a8a41",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "David Grosso",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/david-grosso/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/david_grosso_color__small-copy-2-125x125-c-default.jpg",
+      "id": "ocd-person/68a4ad6c-47e2-4559-8cd6-d28cf598af6e",
+      "givenName": "David",
+      "familyName": "Grosso",
+      "contactDetails": [
+        {
+          "value": "dgrosso@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8105",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8071",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "At-Large"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-brandon-t-todd/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Brandon Todd",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-brandon-t-todd/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/06/CM-Todd-Formal-Headshot-125x125-c-default.jpg",
+      "id": "ocd-person/705a739d-e779-42dd-8953-d6ede3f7f1db",
+      "givenName": "Brandon",
+      "familyName": "Todd",
+      "contactDetails": [
+        {
+          "value": "202-724-8052",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-741-0908",
+          "type": "fax",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "btodd@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 4"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/brianne-nadeau/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Brianne K. Nadeau",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/brianne-nadeau/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/bkn-125x125-c-default.jpg",
+      "id": "ocd-person/4e806a33-bba3-4484-95f8-d723769b99f1",
+      "givenName": "Brianne K.",
+      "familyName": "Nadeau",
+      "contactDetails": [
+        {
+          "value": "bnadeau@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8181",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8109",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 1"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/anita-bonds/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Anita Bonds",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/anita-bonds/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/Anita-125x125-c-default.jpg",
+      "id": "ocd-person/860fa95b-c737-43bd-948d-1dd6dc1b734e",
+      "givenName": "Anita",
+      "familyName": "Bonds",
+      "contactDetails": [
+        {
+          "value": "abonds@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8064",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8086",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "At-Large"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/phil-mendelson/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Phil Mendelson",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/phil-mendelson/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/Photo-107-002-125x125-c-default.jpg",
+      "id": "ocd-person/e3b9567d-67ff-4cc1-89eb-1ed1af646393",
+      "givenName": "Phil",
+      "familyName": "Mendelson",
+      "contactDetails": [
+        {
+          "value": "pmendelson@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8085",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8099",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Chairman"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/jack-evans/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Jack Evans",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/jack-evans/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/evans-125x125-c-default.jpg",
+      "id": "ocd-person/b8df69c7-ee72-41a3-9398-7dd3341acb36",
+      "givenName": "Jack",
+      "familyName": "Evans",
+      "contactDetails": [
+        {
+          "value": "jevans@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8058",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8023",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 2"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-robert-c-white-jr/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Robert White",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-robert-c-white-jr/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/06/CMWhite_WebsitePhoto_small-125x125-c-default.jpg",
+      "id": "ocd-person/039d6153-d791-42ff-9fb1-3326c4565c53",
+      "givenName": "Robert",
+      "familyName": "White",
+      "contactDetails": [
+        {
+          "value": "rwhite@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8174",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-727-8210",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "At-Large"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/council-member-mary-m-cheh/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Mary Cheh",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/council-member-mary-m-cheh/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/06/CMMC_head_shot_140_137_c1-125x125-c-default.jpg",
+      "id": "ocd-person/d47c1f12-7a5a-417a-b458-7f7a086e7d4c",
+      "givenName": "Mary",
+      "familyName": "Cheh",
+      "contactDetails": [
+        {
+          "value": "mcheh@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8062",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8118",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 3"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-trayon-white-sr/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Democratic",
+            "id": "ocd-organization/20889c0b-bb05-4d82-bce1-e2072fcd53aa",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Trayon White",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/councilmember-trayon-white-sr/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/06/tw-125x125-c-default.jpg",
+      "id": "ocd-person/8c48b12b-59a2-41bb-96c5-fc3b367637aa",
+      "givenName": "Trayon",
+      "familyName": "White",
+      "contactDetails": [
+        {
+          "value": "twhite@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8045",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8055",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "Ward 8"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "person": {
+      "sources": [
+        {
+          "url": "http://dccouncil.us/council/elissa-silverman/"
+        }
+      ],
+      "party": [
+        {
+          "organization": {
+            "name": "Independent",
+            "id": "ocd-organization/d6ca7a45-3984-4da6-a7f8-0c0c846a8a41",
+            "classification": "party"
+          }
+        }
+      ],
+      "name": "Elissa Silverman",
+      "links": [
+        {
+          "url": "http://dccouncil.us/council/elissa-silverman/"
+        }
+      ],
+      "image": "http://dccouncil.us/wp-content/uploads/2017/03/silverman2-125x125-c-default.jpg",
+      "id": "ocd-person/438f747e-7345-47f9-ba1b-bb20c8844383",
+      "givenName": "Elissa",
+      "familyName": "Silverman",
+      "contactDetails": [
+        {
+          "value": "esilverman@dccouncil.us",
+          "type": "email",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-7772",
+          "type": "voice",
+          "note": "Capitol Office"
+        },
+        {
+          "value": "202-724-8087",
+          "type": "fax",
+          "note": "Capitol Office"
+        }
+      ],
+      "chamber": [
+        {
+          "post": {
+            "role": "Councilmember",
+            "label": "At-Large"
+          },
+          "organization": {
+            "parent": null,
+            "name": "Council of the District of Columbia",
+            "id": "ocd-organization/393504d5-b5ba-446f-908b-9868996bf3f7",
+            "classification": "legislature"
+          }
+        }
+      ]
+    }
+  }
+]
