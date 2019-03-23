@@ -20,6 +20,17 @@ defmodule OpenStatesScraper.Consumer do
     IO.puts("Scraped #{jurisdiction}")
   end
 
+  @doc """
+  Converts string to snakecase.
+
+  Very limited scope, only parses spaces.
+
+  ## Examples
+
+      iex> OpenStatesScraper.Consumer.to_snakecase("Make Me Snake Case")
+      "make_me_snake_case"
+  """
+  @spec to_snakecase(binary()) :: binary()
   def to_snakecase(jurisdiction) do
     jurisdiction
     |> String.downcase()
