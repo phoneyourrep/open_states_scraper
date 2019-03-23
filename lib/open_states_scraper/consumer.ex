@@ -30,7 +30,7 @@ defmodule OpenStatesScraper.Consumer do
       iex> OpenStatesScraper.Consumer.to_snakecase("Make Me Snake Case")
       "make_me_snake_case"
   """
-  @spec to_snakecase(binary()) :: binary()
+  @spec to_snakecase(String.t()) :: String.t()
   def to_snakecase(jurisdiction) do
     jurisdiction
     |> String.downcase()
@@ -38,6 +38,7 @@ defmodule OpenStatesScraper.Consumer do
     |> Enum.join("_")
   end
 
+  @spec get_people(String.t()) :: [map]
   def get_people(jurisdiction) do
     case people_query(jurisdiction) do
       {:ok, %{body: response}} ->
@@ -51,6 +52,7 @@ defmodule OpenStatesScraper.Consumer do
     end
   end
 
+  @spec reduce_response([map]) :: [map]
   def reduce_response(response) do
     response
     |> get_in(["data", "jurisdiction", "organizations", "edges"])
