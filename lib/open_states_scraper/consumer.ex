@@ -20,22 +20,17 @@ defmodule OpenStatesScraper.Consumer do
     IO.puts("Scraped #{jurisdiction}")
   end
 
-  defp to_snakecase(jurisdiction) do
+  def to_snakecase(jurisdiction) do
     jurisdiction
     |> String.downcase()
     |> String.split(" ")
     |> Enum.join("_")
   end
 
-  defp get_people(jurisdiction) do
+  def get_people(jurisdiction) do
     case people_query(jurisdiction) do
       {:ok, %{body: response}} ->
-        response
-        |> get_in(["data", "jurisdiction", "organizations", "edges"])
-        |> Enum.reduce([], fn edges, acc ->
-          [get_in(edges, ["node", "currentMemberships"]) | acc]
-        end)
-        |> List.flatten()
+        reduce_response(response)
 
       {:error, %{body: error}} ->
         error |> IO.inspect() |> Logger.warn()
@@ -45,7 +40,16 @@ defmodule OpenStatesScraper.Consumer do
     end
   end
 
-  defp people_query(jurisdiction) do
+  def reduce_response(response) do
+    response
+    |> get_in(["data", "jurisdiction", "organizations", "edges"])
+    |> Enum.reduce([], fn edges, acc ->
+      [get_in(edges, ["node", "currentMemberships"]) | acc]
+    end)
+    |> List.flatten()
+  end
+
+  def people_query(jurisdiction) do
     OpenStates.query(
       """
       {
